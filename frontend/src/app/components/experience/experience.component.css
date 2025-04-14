@@ -1,0 +1,10 @@
+/* Optional for enhanced shadow */
+.timeline:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(to bottom, #ec4899, #f59e0b);
+  }
+  

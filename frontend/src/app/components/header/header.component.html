@@ -1,0 +1,20 @@
+
+<header class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a class="text-2xl font-bold" routerLink="/">Restaurant</a>
+      <button class="md:hidden block text-white" (click)="toggleMenu()">
+        &#9776;
+      </button>
+      <nav [ngClass]="{'block': isMenuOpen, 'hidden': !isMenuOpen}" class="md:flex md:items-center md:space-x-4 hidden">
+        <a routerLink="/" class="block px-2 py-1">Home</a>
+        <a routerLink="/menu" class="block px-2 py-1">Menu</a>
+        <a routerLink="/about" class="block px-2 py-1">About</a>
+        <a routerLink="/service" class="block px-2 py-1">Service</a>
+        <a routerLink="/contact" class="block px-2 py-1">Contact</a>
+        <a routerLink="/login" class="block px-2 py-1">Login</a>
+      </nav>
+
+
+      
+    </div>
+  </header>
