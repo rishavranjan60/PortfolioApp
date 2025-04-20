@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   // No more router here
+  titles: string[] = [
+    'React Developer',
+    'MERN/MEAN Stack Expert',
+    'Frontend Specialist',
+    'NodeJS Expert',
+    'FullStack Developer'
+  ];
 }
